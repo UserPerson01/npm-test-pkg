@@ -1,0 +1,21 @@
+{
+  "name": "test-pkg01",
+  "version": "0.1.4",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "keywords": [
+    "test",
+    "demo"
+  ],
+  "author": "cold",
+  "license": "MIT",
+  "description": "a test package",
+  "devDependencies": {
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}
