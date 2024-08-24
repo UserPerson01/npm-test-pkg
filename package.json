@@ -1,9 +1,12 @@
 {
   "name": "test-pkg01",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/cold46/npm-test-pkg"
+  },
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts"
   },
